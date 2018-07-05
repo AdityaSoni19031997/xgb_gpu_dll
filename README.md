@@ -1,7 +1,7 @@
 >Installing the Python Wrapper
 
 # Easy Way
-Please follow these instructions to prepare XGBoost for use with Python. I am placing xgboost in a directory called `xgboost_install_dir` but this can be anything. (have a look at the image attached for the directory, starting from bottom left and anticlockwise)
+Please follow these instructions to prepare XGBoost for use with Python. I am placing xgboost in a directory called `xgboost_install_dir` but this can be anything. (have a look at the [image](https://github.com/AdityaSoni19031997/xgb_gpu_dll/blob/master/(shows%20the%20directory%20structure%20of%20mine)follow%20this%20in%20anti%20clockwise%20direction%20from%20bottom%20right.png) attached for the directory, starting from bottom left and anticlockwise)
 
 - `git clone https://github.com/dmlc/xgboost.git xgboost_install_dir` ( will clone it into the directory ` xgboost_install_dir`, preferably place it inside the `Anaconda/Lib/`)
 - copy `xgboost.dll` (downloaded from the g-drive link [here](https://drive.google.com/file/d/1LSD6Ueq5VFgOMq_4Lm96SKsMG8DBB9KP/view?usp=sharing)) into the `xgboost_install_dir\python-package\xgboost\directory`
