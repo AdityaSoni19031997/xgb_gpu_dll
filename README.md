@@ -12,7 +12,7 @@ Please follow these instructions to prepare XGBoost for use with Python. I am pl
 To use the GPU algorithm add the single parameter:
 
 # Python example
-param['updater'] = 'grow_gpu'
+> param['updater'] = 'grow_gpu'
 
 # GPU Acceleration Demo(optional)
 
