@@ -8,6 +8,19 @@ Please follow these instructions to prepare XGBoost for use with Python. I am pl
 - `cd xgboost_install_dir\python-package\`
 - `python setup.py install`
 
+> How do I use it?
+To use the GPU algorithm add the single parameter:
+
+# Python example
+param['updater'] = 'grow_gpu'
+
+# GPU Acceleration Demo(optional)
+
+Demo can be run via this line (provided you are in the conda or apt terminal)
+- Assuming you are in the directory(in my case, yours can be different depending on your dir name) `ProgramData/Anaconda3/Lib/xgboost_install_dir`
+- run this from the shell `python ./demo/gpu_acceleration/cover_type.py` (warning it will take a couple of minutes depending on your download speed as it will download the dataset, easier way is to simply pass the parameter as shown above and build a model...)
+
+---------------------------------------------------------------------------------------------------------
 # Hard Way (from the docs)
 
 Build `XGBoost`
