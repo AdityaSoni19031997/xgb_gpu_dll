@@ -1,6 +1,6 @@
 >Installing the Python Wrapper
 
->> **PS This has been tested on `xgb.__version__ ->'0.72'`**
+**PS This has been tested on `xgb.__version__ ->'0.72'`**
 
 # Easy Way
 Please follow these instructions to prepare XGBoost for use with Python. I am placing xgboost in a directory called `xgboost_install_dir` but this can be anything. (have a look at the [image](https://github.com/AdityaSoni19031997/xgb_gpu_dll/blob/master/(shows%20the%20directory%20structure%20of%20mine)follow%20this%20in%20anti%20clockwise%20direction%20from%20bottom%20right.png) attached for the directory, starting from bottom left and anticlockwise)
